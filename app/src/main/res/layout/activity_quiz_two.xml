@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="tegar.daily.iakquiz.ActivityQuizTwo"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="10dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        android:textSize="15sp"
+        android:textColor="@android:color/holo_red_dark"/>
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Apa nama atribut dari view yang digunakan untuk mengubah warna pada TextView ?"
+        android:textColor="@android:color/black"/>
+
+    <RadioGroup
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/rb_a"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="android:textStyle"
+            android:onClick="radioOnclick"/>
+        <RadioButton
+            android:id="@+id/rb_b"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="android:textSize"
+            android:onClick="radioOnclick"/>
+        <RadioButton
+            android:id="@+id/rb_c"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="android:textColor"
+            android:onClick="radioOnclick"/>
+        <RadioButton
+            android:id="@+id/rb_d"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="android:src"
+            android:onClick="radioOnclick"/>
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/bt_quiz_two"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lanjut"
+        android:onClick="buttonOnclick"/>
+</LinearLayout>

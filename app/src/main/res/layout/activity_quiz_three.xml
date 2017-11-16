@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="tegar.daily.iakquiz.ActivityQuizThree"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="10dp">
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@mipmap/ic_launcher"/>
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Apa nama view yang tepat untuk menampilkan Gambar/Icon di suatu interface aplikasi android, seperti contoh diatas ?"
+        android:textColor="@android:color/black"/>
+
+    <RadioGroup
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/rb_a"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:onClick="radioOnclick"/>
+        <RadioButton
+            android:id="@+id/rb_b"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextBox"
+            android:onClick="radioOnclick"/>
+        <RadioButton
+            android:id="@+id/rb_c"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="EditText"
+            android:onClick="radioOnclick"/>
+        <RadioButton
+            android:id="@+id/rb_d"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ImageView"
+            android:onClick="radioOnclick"/>
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/bt_quiz_three"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lanjut"
+        android:onClick="buttonOnclick"/>
+
+</LinearLayout>

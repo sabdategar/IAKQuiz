@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="tegar.daily.iakquiz.ActivityResult"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_jawabQuizOne"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"/>
+    <TextView
+        android:id="@+id/tv_jawabQuizTwo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"/>
+    <TextView
+        android:id="@+id/tv_jawabQuizThree"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"/>
+    <TextView
+        android:id="@+id/tv_jawabQuizFour"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"/>
+    <TextView
+        android:id="@+id/tv_jawabQuizFive"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"/>
+</LinearLayout>

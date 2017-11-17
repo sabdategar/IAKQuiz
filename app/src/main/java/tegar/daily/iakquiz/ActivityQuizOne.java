@@ -9,6 +9,8 @@ import android.widget.RadioButton;
 public class ActivityQuizOne extends AppCompatActivity {
 
     String jawabQuizOne;
+    String jawabanBenar = "TextView";
+    int score;
 
     RadioButton rb_a;
     RadioButton rb_b;
